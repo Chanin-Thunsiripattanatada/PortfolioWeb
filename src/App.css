@@ -1,0 +1,35 @@
+body {
+  font-family: Prompt;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh;
+}
+
+header {
+  font-family: Prompt;
+  font-size: 16px;
+}
+
+main {
+  font-family: Prompt;
+  margin: 0 auto;
+  min-height: calc(100vh - 211px - 58px);
+  background-color: #2c313c;
+}
+
+footer {
+  font-family: Prompt;
+  background-color: #000000;
+  color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.table-contents-button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
