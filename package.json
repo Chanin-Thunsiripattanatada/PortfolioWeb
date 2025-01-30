@@ -1,7 +1,7 @@
 {
   "name": "portfolioweb",
   "version": "0.1.0",
-  "homepage": "https://Chanin-Thunsiripattanatada.github.io/",
+  "homepage": "https://chanin-thunsiripattanatada.github.io/PortfolioWeb",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
