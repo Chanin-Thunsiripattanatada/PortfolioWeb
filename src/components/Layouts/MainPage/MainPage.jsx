@@ -32,9 +32,9 @@ const DocumentationPage = () => {
                   <FaGraduationCap className="mr-2 text-500" /> Education
                 </h2>
                 <p className="mt-2 text-gray-700">
-                  Currently a third-year Computer Science student at the College of Computing, Khon Kaen University.
-                  <br />
-                  <strong>GPAX:</strong> 3.68 / 4.0
+                  Bachelor of Science in Computer Science<br />
+                  College of Computing, Khon Kaen University<br />
+                  <strong>GPAX:</strong> 3.70 / 4.0
                 </p>
               </div>
             </ContentSection>
@@ -46,9 +46,9 @@ const DocumentationPage = () => {
                       <FaCode className="mr-2 text-500" /> Skills
                     </h2>
                     <p className="mt-2 text-gray-700">
-                      <strong>Programming Languages:</strong> Python, Java, JavaScript (Proficient)
+                      <strong>Programming Languages:</strong> C#, Java, Python, JavaScript, SQL, VB.NET, VB6, PHP
                       <br />
-                      <strong>Frameworks:</strong> Spring Boot, React.js (Competent)
+                      <strong>Frameworks:</strong> ASP.NET Core, Spring Boot, React.js, Laravel
                       <br />
                       <strong>Others:</strong> RESTful API, Microservices
                     </p>
@@ -58,14 +58,14 @@ const DocumentationPage = () => {
                     <h2 className="flex items-center text-xl font-bold">
                       <FaDatabase className="mr-2 text-500" /> Databases
                     </h2>
-                    <p className="mt-2 text-gray-700">MySQL, MongoDB (Proficient)</p>
+                    <p className="mt-2 text-gray-700">Microsoft SQL Server, MySQL, MongoDB</p>
                   </div>
 
                   <div className="mb-6">
                     <h2 className="flex items-center text-xl font-bold">
                       <FaTools className="mr-2 text-500" /> Tools
                     </h2>
-                    <p className="mt-2 text-gray-700">Git, GitHub, Docker (Competent)</p>
+                    <p className="mt-2 text-gray-700">Git, GitHub, Docker, Postman, IIS, Virtual Machines</p>
                   </div>
                 </ContentSection>
               </Col>
@@ -78,7 +78,7 @@ const DocumentationPage = () => {
                     <p className="mt-2 text-gray-700">
                       <strong>Thai:</strong> Native
                       <br />
-                      <strong>English:</strong> Beginner
+                      <strong>English:</strong> Intermediate (able to read technical documentation and code confidently)
                     </p>
                   </div>
                 </ContentSection>
@@ -97,7 +97,7 @@ const DocumentationPage = () => {
                         text={`${item.text} (${item.year})`}
                         image={item.image || null}
                         link={item.link || null}
-                        course={item.course || null}
+                        desc={item.desc || null}
                       />
                     </div>
                   ))}
@@ -117,7 +117,7 @@ const DocumentationPage = () => {
                         text={`${item.text} (${item.year})`}
                         image={item.image || null}
                         link={item.link || null}
-                        course={item.course || null}
+                        desc={item.desc || null}
                       />
                     </div>
                   ))}
